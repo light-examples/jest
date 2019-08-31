@@ -1,7 +1,7 @@
 const fetch = require('node-fetch');
 const { test } = require('light');
 
-const index = require('../index');
+const index = require('../routes/index');
 
 let server;
 beforeAll(async () => {
